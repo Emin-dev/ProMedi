@@ -1,1 +1,24 @@
-@import "header.scss"
+*{
+    user-select: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "menuHeader";
+@import "header"

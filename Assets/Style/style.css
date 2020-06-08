@@ -1,4 +1,178 @@
-body {
-  color: red;
+* {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#menuHeader {
+  position: absolute;
+}
+
+#header .container-fluid {
+  padding: 0px;
+  position: relative;
+}
+
+#header .owl-carousel .owl-nav button {
+  border: 1px solid #ffffff;
+  width: 50px;
+  height: 50px;
+  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+          clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  outline: none;
+  position: absolute;
+}
+
+#header .owl-carousel .owl-nav button i {
+  font-size: 15px;
+  color: white;
+}
+
+#header .owl-carousel .owl-nav .owl-prev {
+  top: 40%;
+  left: 2%;
+}
+
+#header .owl-carousel .owl-nav .owl-next {
+  top: 40%;
+  right: 2%;
+}
+
+#header .owl-carousel img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#header .owl-carousel .layer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.4;
+  z-index: 2;
+}
+
+#header .owl-carousel h1 {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 80px;
+  z-index: 4;
+  -webkit-animation: h1 2s infinite ease-in-out;
+          animation: h1 2s infinite ease-in-out;
+}
+
+@-webkit-keyframes h1 {
+  0% {
+    top: 80%;
+    opacity: 0%;
+  }
+  50% {
+    top: 50%;
+    opacity: 100%;
+  }
+  55% {
+    top: 50%;
+    opacity: 100%;
+  }
+  60% {
+    top: 50%;
+    opacity: 100%;
+  }
+  65% {
+    top: 50%;
+    opacity: 100%;
+  }
+  70% {
+    top: 50%;
+    opacity: 100%;
+  }
+  75% {
+    top: 50%;
+    opacity: 100%;
+  }
+  80% {
+    top: 50%;
+    opacity: 100%;
+  }
+  85% {
+    top: 50%;
+    opacity: 100%;
+  }
+  90% {
+    top: 50%;
+    opacity: 100%;
+  }
+  95% {
+    top: 50%;
+    opacity: 100%;
+  }
+  100% {
+    top: 50%;
+    opacity: 100%;
+  }
+}
+
+@keyframes h1 {
+  0% {
+    top: 80%;
+    opacity: 0%;
+  }
+  50% {
+    top: 50%;
+    opacity: 100%;
+  }
+  55% {
+    top: 50%;
+    opacity: 100%;
+  }
+  60% {
+    top: 50%;
+    opacity: 100%;
+  }
+  65% {
+    top: 50%;
+    opacity: 100%;
+  }
+  70% {
+    top: 50%;
+    opacity: 100%;
+  }
+  75% {
+    top: 50%;
+    opacity: 100%;
+  }
+  80% {
+    top: 50%;
+    opacity: 100%;
+  }
+  85% {
+    top: 50%;
+    opacity: 100%;
+  }
+  90% {
+    top: 50%;
+    opacity: 100%;
+  }
+  95% {
+    top: 50%;
+    opacity: 100%;
+  }
+  100% {
+    top: 50%;
+    opacity: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
