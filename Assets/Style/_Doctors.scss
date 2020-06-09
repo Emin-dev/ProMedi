@@ -26,11 +26,23 @@
       background: #ffffff;
       border-color: #ffffff;
     }
-    .imgbox:before {
+    &:before {
       content: "";
       position: absolute;
       background-color: #396cf0;
       height: 48%;
+      width: 89.5%;
+      z-index: 0;
+      left: 17px;
+      top: 3px;
+      transition: .5s;
+      clip-path: polygon(50% 0%, 100% 0, 100% 88%, 50% 100%, 0 88%, 0 0);
+    }
+    &:hover:before {
+      content: "";
+      position: absolute;
+      background-color: #396cf0;
+      height: 45.5%;
       width: 89.5%;
       z-index: 0;
       left: 17px;
