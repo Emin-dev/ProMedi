@@ -1,5 +1,42 @@
-#Doctors{
-    .box{
-        border: 1px solid red;
+#Doctors {
+  .whitebox {
+    background-color: white;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    border: 1px solid #eeeeee;
+  }
+  position: relative;
+  z-index: 3;
+  margin-top: -130px;
+  h1 {
+    font-size: 20px;
+  }
+  .box {
+    border: 1px solid #eeeeee;
+    transition: all 0.5s;
+    img {
+      position: relative;
+      clip-path: polygon(50% 0%, 100% 0, 100% 88%, 50% 100%, 0 88%, 0 0);
     }
+    
+    &:hover {
+      //transform: translateY(-10px); :before error
+      margin-top: -10px;
+      box-shadow: 7px 5px 30px rgba(72, 73, 121, 0.15);
+      background: #ffffff;
+      border-color: #ffffff;
+    }
+    .imgbox:before {
+      content: "";
+      position: absolute;
+      background-color: #396cf0;
+      height: 48%;
+      width: 89.5%;
+      z-index: 0;
+      left: 17px;
+      top: 3px;
+
+      clip-path: polygon(50% 0%, 100% 0, 100% 88%, 50% 100%, 0 88%, 0 0);
+    }
+  }
 }

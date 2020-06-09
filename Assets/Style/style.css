@@ -307,7 +307,58 @@ ul {
 }
 
 #Doctors {
-  color: red;
-  background-color: red;
+  position: relative;
+  z-index: 3;
+  margin-top: -130px;
+}
+
+#Doctors .whitebox {
+  background-color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 30px 20px;
+  border: 1px solid #eeeeee;
+}
+
+#Doctors h1 {
+  font-size: 20px;
+}
+
+#Doctors .box {
+  border: 1px solid #eeeeee;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#Doctors .box img {
+  position: relative;
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 88%, 50% 100%, 0 88%, 0 0);
+          clip-path: polygon(50% 0%, 100% 0, 100% 88%, 50% 100%, 0 88%, 0 0);
+}
+
+#Doctors .box:hover {
+  margin-top: -10px;
+  -webkit-box-shadow: 7px 5px 30px rgba(72, 73, 121, 0.15);
+          box-shadow: 7px 5px 30px rgba(72, 73, 121, 0.15);
+  background: #ffffff;
+  border-color: #ffffff;
+}
+
+#Doctors .box .imgbox:before {
+  content: "";
+  position: absolute;
+  background-color: #396cf0;
+  height: 48%;
+  width: 89.5%;
+  z-index: 0;
+  left: 17px;
+  top: 3px;
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 88%, 50% 100%, 0 88%, 0 0);
+          clip-path: polygon(50% 0%, 100% 0, 100% 88%, 50% 100%, 0 88%, 0 0);
+}
+
+#aboutus img {
+  -webkit-clip-path: polygon(3% 18%, 0 0, 20% 2%, 76% 2%, 100% 0, 97% 19%, 96% 80%, 100% 100%, 80% 96%, 18% 96%, 0 100%, 3% 82%);
+          clip-path: polygon(3% 18%, 0 0, 20% 2%, 76% 2%, 100% 0, 97% 19%, 96% 80%, 100% 100%, 80% 96%, 18% 96%, 0 100%, 3% 82%);
 }
 /*# sourceMappingURL=style.css.map */
