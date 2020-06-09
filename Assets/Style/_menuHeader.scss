@@ -1,3 +1,29 @@
-#menuHeader{
-    position: absolute;
+#menuHeader {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: 5;
+  button {
+    margin: 0px;
+  }
+
+  #menu {
+    background: white;
+    padding: 5px;
+    margin: 5px;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    li {
+      margin: 5px;
+      padding: 5px;
+      a {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 14px;
+        color: #333333;
+      }
+    }
+  }
 }

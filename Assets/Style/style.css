@@ -9,8 +9,53 @@ html {
   scroll-behavior: smooth;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
 #menuHeader {
   position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: 5;
+}
+
+#menuHeader button {
+  margin: 0px;
+}
+
+#menuHeader #menu {
+  background: white;
+  padding: 5px;
+  margin: 5px;
+}
+
+#menuHeader ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#menuHeader ul li {
+  margin: 5px;
+  padding: 5px;
+}
+
+#menuHeader ul li a {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333333;
 }
 
 #header .container-fluid {
@@ -26,11 +71,19 @@ html {
           clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
   outline: none;
   position: absolute;
+  -webkit-transition: 1s;
+  transition: 1s;
+  background: #396df000;
 }
 
 #header .owl-carousel .owl-nav button i {
   font-size: 15px;
   color: white;
+}
+
+#header .owl-carousel .owl-nav button:hover {
+  background: #396cf0;
+  border: 1px solid #396cf0;
 }
 
 #header .owl-carousel .owl-nav .owl-prev {
@@ -70,8 +123,8 @@ html {
   font-weight: bold;
   font-size: 80px;
   z-index: 4;
-  -webkit-animation: h1 2s infinite ease-in-out;
-          animation: h1 2s infinite ease-in-out;
+  -webkit-animation: h1 2s;
+          animation: h1 2s;
 }
 
 @-webkit-keyframes h1 {
