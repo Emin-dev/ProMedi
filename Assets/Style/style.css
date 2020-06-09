@@ -28,15 +28,24 @@ ul {
 
 #menuHeader button {
   margin: 0px;
+  background: #396cf0;
+  padding: 15px 25px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#menuHeader button:hover {
+  background: #333333;
 }
 
 #menuHeader #menu {
   background: white;
-  padding: 5px;
+  padding: 20px;
   margin: 5px;
+  max-width: 1110px;
 }
 
-#menuHeader ul {
+#menuHeader #menu ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,16 +55,105 @@ ul {
           flex-direction: row;
 }
 
-#menuHeader ul li {
+#menuHeader #menu ul li {
   margin: 5px;
   padding: 5px;
 }
 
-#menuHeader ul li a {
+#menuHeader #menu ul li a {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
   color: #333333;
+}
+
+#menuHeader #menu .dropdown-menu {
+  z-index: 11;
+  height: 0px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  width: 200px;
+  border: 0px solid rgba(0, 0, 0, 0.15);
+  left: 132px;
+  display: block;
+  overflow: hidden;
+}
+
+#menuHeader #menu .dropdown-menu .dropdown-item {
+  font-size: 15px;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+
+#menuHeader #menu .secont {
+  left: 267px;
+}
+
+#menuHeader #menu li:hover .dropdown-menu {
+  height: 300px;
+  display: block;
+}
+
+#menuHeader #menu li:hover .secont {
+  height: 160px;
+}
+
+#menuHeader #upmenu {
+  padding: 5px;
+  margin: 5px;
+  max-width: 1110px;
+}
+
+#menuHeader #upmenu h6 {
+  color: white;
+  margin: 5px;
+  padding: 5px;
+}
+
+#menuHeader #upmenu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#menuHeader #upmenu ul li {
+  margin: 5px;
+  padding: 5px;
+}
+
+#menuHeader #upmenu ul li i {
+  background-color: #ffffff;
+  color: #396cf0;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 32px;
+}
+
+@media (min-width: 0px) and (max-width: 767.98px) {
+  #menuHeader h6 {
+    display: none;
+  }
+  #menuHeader #menu {
+    padding: 0px;
+  }
+  #menuHeader #logo {
+    max-width: 100px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 1200px) {
+  #menuHeader #menu ul li a {
+    font-size: 10px !important;
+  }
+  #menuHeader .col-lg-6, #menuHeader button {
+    display: none;
+  }
 }
 
 #header .container-fluid {
@@ -226,6 +324,12 @@ ul {
   100% {
     top: 50%;
     opacity: 100%;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 1200px) {
+  #header h1 {
+    font-size: 30px !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
