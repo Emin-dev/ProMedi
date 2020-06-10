@@ -1,0 +1,66 @@
+#center {
+  background-image: url(../imgs/1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #396cf0;
+    opacity: 0.9;
+    z-index: -1;
+  }
+  h3,
+  p {
+    color: white;
+  }
+  button{
+    background: white;
+    border-color: #333333;
+    color: $mc;
+    transition: .5s;
+    &:hover{
+        background-color: #333333;
+        color: #ffffff;
+    }
+  }
+  @keyframes toTopFromBottom {
+    49% {
+      transform: translateY(50%);
+    }
+    50% {
+      opacity: 0;
+      transform: translateY(-50%);
+    }
+    51% {
+      opacity: 1;
+    }
+  }
+  
+  &:hover i{
+    animation: toTopFromBottom 0.5s forwards;
+    color: #333333;
+  }
+  i{
+    
+    position: absolute;
+    left: -50px;
+    top: 53px;
+    font-size: 60px;
+    color: white;
+  }
+  h3{
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  p{
+    font-size: 15px;
+  }
+}
