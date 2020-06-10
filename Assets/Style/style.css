@@ -373,7 +373,30 @@ ul {
 }
 
 #aboutus img {
+  max-width: 100%;
+  height: auto;
   -webkit-clip-path: polygon(3% 18%, 0 0, 20% 2%, 76% 2%, 100% 0, 97% 19%, 96% 80%, 100% 100%, 80% 96%, 18% 96%, 0 100%, 3% 82%);
           clip-path: polygon(3% 18%, 0 0, 20% 2%, 76% 2%, 100% 0, 97% 19%, 96% 80%, 100% 100%, 80% 96%, 18% 96%, 0 100%, 3% 82%);
+}
+
+#aboutus button {
+  background: #396cf0;
+  border: 1px solid #333333;
+  border-radius: 4px;
+}
+
+#aboutus h1,
+#aboutus h5 {
+  margin: 0px;
+}
+
+#aboutus h1 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+#aboutus p {
+  color: #666666;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */
