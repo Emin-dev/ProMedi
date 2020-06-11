@@ -33,11 +33,13 @@
   }
   @keyframes toTopFromBottom {
     49% {
-      transform: translateY(50%);
+      opacity: 0;
+      transform: translateY(10%);
+      
     }
     50% {
       opacity: 0;
-      transform: translateY(-50%);
+      transform: translateY(-60%);
     }
     51% {
       opacity: 1;

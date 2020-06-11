@@ -1,0 +1,10 @@
+#prevideo{
+    height: 500px;
+    background: $mc;
+    h1,h5{
+        color: white;
+        &:before{
+          background: white;
+        }
+    }
+}
