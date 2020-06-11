@@ -21,14 +21,14 @@
   p {
     color: white;
   }
-  button{
+  button {
     background: white;
     border-color: #333333;
     color: $mc;
-    transition: .5s;
-    &:hover{
-        background-color: #333333;
-        color: #ffffff;
+    transition: 0.5s;
+    &:hover {
+      background-color: #333333;
+      color: #ffffff;
     }
   }
   @keyframes toTopFromBottom {
@@ -43,24 +43,26 @@
       opacity: 1;
     }
   }
-  
-  &:hover i{
+
+  .foricon {
+    padding-left: 80px;
+  }
+  &:hover i {
     animation: toTopFromBottom 0.5s forwards;
     color: #333333;
   }
-  i{
-    
+  i {
     position: absolute;
-    left: -50px;
-    top: 53px;
+    left: 0px;
+    top: 50px;
     font-size: 60px;
     color: white;
   }
-  h3{
+  h3 {
     font-size: 22px;
     margin-bottom: 5px;
   }
-  p{
+  p {
     font-size: 15px;
   }
 }

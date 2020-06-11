@@ -1,27 +1,28 @@
-* {
-  user-select: none;
-  
+*{
+user-select:none;
+
 }
-html {
-  scroll-behavior: smooth;
+html{
+scroll-behavior:smooth;
 }
 
-a:hover {
-  text-decoration: none;
+a:hover{
+text-decoration:none;
 }
 
-ul {
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
+ul{
+list-style:none;
+margin:0px;
+padding:0px;
 }
 $mc:#396cf0;
 
 
 
 
-@import "menuHeader";
-@import "header";
-@import "Doctors";
-@import "aboutus";
-@import "center";
+@import"menuHeader";
+@import"header";
+@import"Doctors";
+@import"aboutus";
+@import"center";
+@import"Departments";

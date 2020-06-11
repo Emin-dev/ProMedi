@@ -42,7 +42,7 @@
       content: "";
       position: absolute;
       background-color: #396cf0;
-      height: 48%;
+      height: 54%;
       width: 89.5%;
       z-index: 0;
       left: 17px;
@@ -54,7 +54,7 @@
       content: "";
       position: absolute;
       background-color: #396cf0;
-      height: 45.5%;
+      height: 51%;
       width: 89.5%;
       z-index: 0;
       left: 17px;
@@ -62,5 +62,42 @@
 
       clip-path: polygon(50% 0%, 100% 0, 100% 88%, 50% 100%, 0 88%, 0 0);
     }
+  }
+
+
+ 
+  @media  (min-width:1px) and (max-width: 767.98px) {
+    margin-top: 0px!important;
+    .box{
+      &:before {
+        content: "";
+        height: 62.5% !important;
+    width: 91.5% !important;
+      }
+      &:hover:before {
+        content: "";
+        height: 59.9% !important;
+         
+          }
+    }
+     
+  }
+  @media (min-width: 768px) and (max-width: 1299px) {
+    margin-top: 0px!important;
+    .box{
+      &:before {
+        content: "";
+        height: 52%!important;
+          width: 88.8%!important;
+      }
+      &:hover:before {
+        content: "";
+        height: 49%!important;
+         
+          }
+    }
+  }
+  @media (min-width: 1300px) {
+   
   }
 }
