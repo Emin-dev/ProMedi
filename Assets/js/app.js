@@ -58,7 +58,7 @@ $(document).ready(function () {
              </div>`
             });
 
-            $("#owl-stage").append(box);
+            $(".owl-stage").append(box);
             $("#owl-carousel2").append(box);
 
           });
