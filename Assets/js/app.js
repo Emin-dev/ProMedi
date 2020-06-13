@@ -18,57 +18,57 @@ $(document).ready(function () {
 
 
 
+  $.ajax({
+    type: "GET",
+    url: "http://kamranaeff1994-002-site3.ctempurl.com/api/Doctors",
+    success: function (response) {
+      $.each(response, function (i, e) {
+        console.log(e);
+
+        let box = $("<div/>", {
+          class: 'box',
+          html: `
+         <div class="imgbox">
+             <img src="http://kamranaeff1994-002-site3.ctempurl.com/images/d${e.id}.jpg" alt="">
+         </div>
+         <div class="txtbox">
+             <h1>${e.name}</h1>
+             <h4>${e.profession}</h4>
+             <p>${e.description}</p>
+         </div>`
+        });
 
 
-  $("#owl-carousel2").owlCarousel({
-    nav: true,
-    navText: [`<i class="fas fa-chevron-double-left"></i>`, `<i class="fas fa-chevron-double-right"></i>`],
-    dots: false,
-    items: 3,
-    loop: true,
-    autoplay: true,
-    autoplayTimeout: 3000,
-    autoplayHoverPause: true
-  }
-  );
+        $("#owl-carousel2").append(box);
+
+      });
+    },
+    error: function (response) {
+      console.log(response);
+
+    }
+  });
+
+
+
 
 
 
   setTimeout(
     function () {
-      console.log("ajax");
+      console.log("corusel");
 
-      $.ajax({
-        type: "GET",
-        url: "http://kamranaeff1994-002-site3.ctempurl.com/api/Doctors",
-        success: function (response) {
-          $.each(response, function (i, e) {
-            let box = $("<div/>", {
-              class: 'owl-item',
-              html: `
-             <div class="imgbox">
-                 <img src="" alt="">
-             </div>
-             <div class="txtbox">
-                 <h1></h1>
-                 <h4></h4>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                  sed do eiusmod tempor incididunt ut
-                     labore</p>
-             </div>`
-            });
-
-            $(".owl-stage").append(box);
-            $("#owl-carousel2").append(box);
-
-          });
-        },
-        error: function (response) {
-          console.log(response);
-
-        }
-      });
-
+      $("#owl-carousel2").owlCarousel({
+        nav: true,
+        navText: [`<i class="far fa-long-arrow-left"></i>`, `<i class="fas fa-long-arrow-right"></i>`],
+        dots: false,
+        items: 3,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true
+      }
+      );
     }
-    , 5000)
+    , 500)
 });

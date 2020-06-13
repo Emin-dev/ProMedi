@@ -476,6 +476,7 @@ ul {
 #aboutus h1 {
   font-size: 30px;
   margin-bottom: 15px;
+  font-weight: bold;
 }
 
 #aboutus p {
@@ -812,5 +813,86 @@ ul {
 
 #Expert {
   background-color: #f9faff;
+}
+
+#Expert #owl-carousel2 {
+  position: relative;
+}
+
+#Expert .box {
+  -webkit-transition: 1s;
+  transition: 1s;
+  text-align: center;
+  margin: 20px;
+}
+
+#Expert .box:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-box-shadow: 7px 5px 30px rgba(72, 73, 121, 0.15);
+          box-shadow: 7px 5px 30px rgba(72, 73, 121, 0.15);
+}
+
+#Expert .box h1 {
+  font-weight: bold;
+}
+
+#Expert .box h1,
+#Expert .box h4,
+#Expert .box p {
+  font-size: 20px;
+  padding: 0 22px 15px;
+  margin: 0px;
+}
+
+#Expert .box h4 {
+  color: #396cf0;
+}
+
+#Expert .box h4,
+#Expert .box p {
+  font-size: 15px;
+  line-height: 28px;
+}
+
+#Expert .box .imgbox {
+  margin-bottom: 10px;
+}
+
+#Expert button {
+  border: 1px solid #ffffff;
+  background: #ffffff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  outline: none;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#Expert button i {
+  font-size: 15px;
+  color: #396cf0;
+}
+
+#Expert button:hover {
+  background: #396cf0;
+  border: 1px solid #396cf0;
+}
+
+#Expert button:hover i {
+  color: white;
+}
+
+#Expert .owl-next {
+  right: -3%;
+}
+
+#Expert .owl-prev {
+  left: 1%;
 }
 /*# sourceMappingURL=style.css.map */

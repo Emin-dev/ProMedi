@@ -1,5 +1,70 @@
-#Expert{
-    background-color: #f9faff;
+#Expert {
+  #owl-carousel2 {
+    position: relative;
+  }
+  background-color: #f9faff;
+  .box {
+    transition: 1s;
+    text-align: center;
+    margin: 20px;
 
+    &:hover {
+      transition: 0.5s;
+      box-shadow: 7px 5px 30px rgba(72, 73, 121, 0.15);
+    }
+    h1{
+        font-weight: bold;
+    }
+    h1,
+    h4,
+    p {
+      font-size: 20px;
+      padding: 0 22px 15px;
+      margin: 0px;
+    }
     
+    h4{
+        color: $mc;
+    }
+    h4,
+    p {
+      font-size: 15px;
+      line-height: 28px;
+    }
+   
+    .imgbox {
+        margin-bottom: 10px;
+      img {
+      }
+    }
+  }
+  button {
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    transition: 1s;
+    i {
+      font-size: 15px;
+      color:$mc;
+    }
+    &:hover {
+      background: $mc;
+      border: 1px solid $mc;
+    }
+    &:hover i{
+        color: white;
+    }
+  }
+  .owl-next {
+    right: -3%;
+  }
+  .owl-prev {
+    left: 1%;
+  }
 }
