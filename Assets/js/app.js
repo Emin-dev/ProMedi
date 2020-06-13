@@ -23,7 +23,7 @@ $(document).ready(function () {
     url: "http://kamranaeff1994-002-site3.ctempurl.com/api/Doctors",
     success: function (response) {
       $.each(response, function (i, e) {
-        console.log(e);
+      //  console.log(e);
 
         let box = $("<div/>", {
           class: 'box',
@@ -54,21 +54,67 @@ $(document).ready(function () {
 
 
 
-  setTimeout(
-    function () {
-      console.log("corusel");
+  setTimeout(function () {
+   // console.log("corusel");
 
-      $("#owl-carousel2").owlCarousel({
-        nav: true,
-        navText: [`<i class="far fa-long-arrow-left"></i>`, `<i class="fas fa-long-arrow-right"></i>`],
-        dots: false,
-        items: 3,
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 3000,
-        autoplayHoverPause: true
-      }
-      );
+    $("#owl-carousel2").owlCarousel({
+      nav: true,
+      navText: [`<i class="far fa-long-arrow-left"></i>`, `<i class="fas fa-long-arrow-right"></i>`],
+      dots: false,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        1000: {
+          items: 3
+        }
+      },
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true
     }
+    );
+  }
     , 500)
+
+
+  // $(function () {
+  //   $("#datepicker").datepicker();
+  // });
+
+  $("#datepicker").click(function (e) { 
+    e.preventDefault();
+    $("#datepicker").datepicker();
+    console.log("geldi");
+    
+  });
+
+
+
+  $("#owl-carousel3").owlCarousel(
+    {
+      nav: true,
+      center:true,
+      navText: [`<i class="far fa-long-arrow-left"></i>`, `<i class="fas fa-long-arrow-right"></i>`],
+      dots: false,
+      items: 3,
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true
+    }
+  );
+
+
+
+
+
+
+
+
+
+
 });
+
+
