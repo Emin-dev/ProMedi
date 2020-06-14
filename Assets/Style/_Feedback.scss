@@ -1,6 +1,87 @@
-
-#Feedback{
-    .center{
-        border: 1px solid red;
+#Feedback {
+  .center {
+    .pbox {
+      border: 1px solid $mc;
     }
+    .box {
+      .imgbox {
+        img {
+          border: 3px solid $mc;
+        }
+      }
+    }
+  }
+  .box {
+    text-align: center;
+    padding: 5px;
+    background-color: #e3f6fd;
+    i {
+      color: $mc;
+      font-size: 50px;
+    }
+    p {
+      margin: 15px 0px 20px;
+      color: #666666;
+    }
+    h2 {
+      margin: 15px 0 0;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .imgbox {
+      img {
+        width: 80px;
+        border-radius: 50%;
+        margin: auto;
+        border: 3px solid #ffffff;
+        transition: 0.5s;
+      }
+    }
+    &:hover img {
+      border-color: $mc;
+    }
+  }
+
+  .pbox {
+    transition: 0.5s;
+    margin: 0px 10px;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid white;
+    &:hover {
+      border-color: $mc;
+    }
+  }
+  #owl-carousel3 {
+    position: relative;
+  }
+  button {
+    border: 1px solid #eeeeee;
+    background: #eeeeee;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    transition: 1s;
+    i {
+      font-size: 15px;
+      color: $mc;
+    }
+    &:hover {
+      background: $mc;
+      border: 1px solid $mc;
+    }
+    &:hover i {
+      color: white;
+    }
+  }
+  .owl-next {
+    right: -5%;
+  }
+  .owl-prev {
+    left: -1%;
+  }
 }

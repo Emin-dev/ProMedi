@@ -2,9 +2,19 @@
   .row {
     max-width: none;
   }
-  .container-fluid {
-    padding: 0px;
+
+
+
+  @media (min-width: 1000px)  {
+    .container-fluid {
+      padding-left: 0px;
+    }
   }
+
+  
+
+
+
   background: $mc;
   .callnum {
     background-image: url(../imgs/appointment-left-bg.jpg);

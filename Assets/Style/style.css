@@ -904,8 +904,10 @@ ul {
   max-width: none;
 }
 
-#Appointment .container-fluid {
-  padding: 0px;
+@media (min-width: 1000px) {
+  #Appointment .container-fluid {
+    padding-left: 0px;
+  }
 }
 
 #Appointment .callnum {
@@ -978,7 +980,100 @@ ul {
   color: #ffffff;
 }
 
-#Feedback .center {
-  border: 1px solid red;
+#Feedback .center .pbox {
+  border: 1px solid #396cf0;
+}
+
+#Feedback .center .box .imgbox img {
+  border: 3px solid #396cf0;
+}
+
+#Feedback .box {
+  text-align: center;
+  padding: 5px;
+  background-color: #e3f6fd;
+}
+
+#Feedback .box i {
+  color: #396cf0;
+  font-size: 50px;
+}
+
+#Feedback .box p {
+  margin: 15px 0px 20px;
+  color: #666666;
+}
+
+#Feedback .box h2 {
+  margin: 15px 0 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#Feedback .box .imgbox img {
+  width: 80px;
+  border-radius: 50%;
+  margin: auto;
+  border: 3px solid #ffffff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#Feedback .box:hover img {
+  border-color: #396cf0;
+}
+
+#Feedback .pbox {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin: 0px 10px;
+  padding: 5px;
+  background-color: white;
+  border: 1px solid white;
+}
+
+#Feedback .pbox:hover {
+  border-color: #396cf0;
+}
+
+#Feedback #owl-carousel3 {
+  position: relative;
+}
+
+#Feedback button {
+  border: 1px solid #eeeeee;
+  background: #eeeeee;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  outline: none;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#Feedback button i {
+  font-size: 15px;
+  color: #396cf0;
+}
+
+#Feedback button:hover {
+  background: #396cf0;
+  border: 1px solid #396cf0;
+}
+
+#Feedback button:hover i {
+  color: white;
+}
+
+#Feedback .owl-next {
+  right: -5%;
+}
+
+#Feedback .owl-prev {
+  left: -1%;
 }
 /*# sourceMappingURL=style.css.map */

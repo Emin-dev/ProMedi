@@ -23,13 +23,13 @@ $(document).ready(function () {
     url: "http://kamranaeff1994-002-site3.ctempurl.com/api/Doctors",
     success: function (response) {
       $.each(response, function (i, e) {
-      //  console.log(e);
+       console.log(e.id);
 
         let box = $("<div/>", {
           class: 'box',
           html: `
          <div class="imgbox">
-             <img src="http://kamranaeff1994-002-site3.ctempurl.com/images/d${e.id}.jpg" alt="">
+             <img src="http://kamranaeff1994-002-site3.ctempurl.com/images/${e.image}" alt="">
          </div>
          <div class="txtbox">
              <h1>${e.name}</h1>
@@ -76,7 +76,7 @@ $(document).ready(function () {
     }
     );
   }
-    , 500)
+    , 1000)
 
 
   // $(function () {
@@ -98,7 +98,14 @@ $(document).ready(function () {
       center:true,
       navText: [`<i class="far fa-long-arrow-left"></i>`, `<i class="fas fa-long-arrow-right"></i>`],
       dots: false,
-      items: 3,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        1000: {
+          items: 3
+        }
+      },
       loop: true,
       autoplay: true,
       autoplayTimeout: 3000,
