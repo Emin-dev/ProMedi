@@ -1127,4 +1127,202 @@ ul {
     display: none;
   }
 }
+
+#News #owl-carousel4 {
+  margin-top: 60px;
+}
+
+#News a {
+  color: #396cf0;
+}
+
+#News .box {
+  margin: 0px 20px;
+}
+
+#News .imgbox {
+  position: relative;
+}
+
+#News .imgbox img {
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 88%, 50% 100%, 0 88%, 0 0);
+          clip-path: polygon(50% 0%, 100% 0, 100% 88%, 50% 100%, 0 88%, 0 0);
+}
+
+#News .txtbox {
+  padding: 30px 20px;
+}
+
+#News .txtbox .minibox {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+#News .txtbox .minibox li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 15px;
+  position: relative;
+  color: #666666;
+}
+
+#News .txtbox .minibox .author {
+  position: relative;
+  padding-left: 40px;
+}
+
+#News .txtbox .minibox .author img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+#News h3 {
+  font-size: 20px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin: 0px 0px 15px;
+  font-weight: bold;
+}
+
+#News p {
+  color: #666666;
+  font-size: 15px;
+}
+
+#News .read {
+  color: #396cf0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 20px;
+  display: inline-block;
+  line-height: 16px;
+}
+
+#News button {
+  border: 1px solid #eeeeee;
+  background: #eeeeee;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  outline: none;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#News button i {
+  font-size: 15px;
+  color: #396cf0;
+}
+
+#News button:hover {
+  background: #396cf0;
+  border: 1px solid #396cf0;
+}
+
+#News button:hover i {
+  color: white;
+}
+
+#News .owl-next {
+  right: -5%;
+}
+
+#News .owl-prev {
+  left: 0%;
+}
+
+#Newsletter {
+  padding: 60px 0px;
+  background-image: url(../imgs/newsletter-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  -webkit-clip-path: polygon(21% 0, 100% 8%, 100% 100%, 50% 100%, 0 100%, 0 9%);
+          clip-path: polygon(21% 0, 100% 8%, 100% 100%, 50% 100%, 0 100%, 0 9%);
+}
+
+#Newsletter:before {
+  content: "";
+  background: #396cf0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+}
+
+#Newsletter .xet {
+  margin-bottom: 70px;
+}
+
+#Newsletter .xet h1,
+#Newsletter .xet h5 {
+  color: white;
+}
+
+#Newsletter .xet h1:before,
+#Newsletter .xet h5:before {
+  background: white;
+}
+
+#Newsletter .subscribe-from {
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Newsletter .form-control {
+  border-radius: 30px;
+  padding: 5px 25px;
+  height: 50px;
+  border: none;
+}
+
+#Newsletter .submit-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 30px;
+  height: 50px;
+  padding: 5px 25px;
+  line-height: 0;
+  color: #396cf0;
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+}
+
+#Newsletter .disabled {
+  opacity: 0.65;
+}
+
+#Newsletter .btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
 /*# sourceMappingURL=style.css.map */

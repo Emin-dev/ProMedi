@@ -117,6 +117,27 @@ $(document).ready(function () {
 
 
 
+  $("#owl-carousel4").owlCarousel(
+    {
+      nav: true,
+      center:true,
+      navText: [`<i class="far fa-long-arrow-left"></i>`, `<i class="fas fa-long-arrow-right"></i>`],
+      dots: false,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        1000: {
+          items: 3
+        }
+      },
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true
+    }
+  );
+
 
 
 
