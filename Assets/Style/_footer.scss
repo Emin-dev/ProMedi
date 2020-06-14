@@ -1,0 +1,23 @@
+#footer {
+  a {
+    color: $mc;
+  }
+  .footerlogo {
+    margin-bottom: 20px;
+    display: inline-block;
+    a {
+      transition: all 0.5s;
+      text-decoration: none;
+    }
+    p {
+      color: #666666;
+      margin-bottom: 10px;
+    }
+  }
+
+  .socials-links{
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0;
+  }
+}

@@ -1325,4 +1325,30 @@ ul {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
+
+#footer a {
+  color: #396cf0;
+}
+
+#footer .footerlogo {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+#footer .footerlogo a {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+#footer .footerlogo p {
+  color: #666666;
+  margin-bottom: 10px;
+}
+
+#footer .socials-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0 0;
+}
 /*# sourceMappingURL=style.css.map */
