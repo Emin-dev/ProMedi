@@ -55,7 +55,7 @@ $(document).ready(function () {
 
 
   setTimeout(function () {
-   // console.log("corusel");
+    console.log("corusel");
 
     $("#owl-carousel2").owlCarousel({
       nav: true,
@@ -76,7 +76,7 @@ $(document).ready(function () {
     }
     );
   }
-    , 1000)
+    , 5000)
 
 
   // $(function () {

@@ -980,6 +980,10 @@ ul {
   color: #ffffff;
 }
 
+#Feedback {
+  padding-bottom: 60px;
+}
+
 #Feedback .center .pbox {
   border: 1px solid #396cf0;
 }
@@ -1075,5 +1079,52 @@ ul {
 
 #Feedback .owl-prev {
   left: -1%;
+}
+
+#constantly {
+  position: relative;
+  background-color: #f9faff;
+  padding: 100px 0px;
+}
+
+#constantly .content {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+#constantly .content h3 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 42px;
+  margin: 0;
+}
+
+#constantly .content p {
+  font-size: 20px;
+  margin: 15px 0 0px;
+  color: #666666;
+}
+
+#constantly .callnum {
+  font-size: 35px;
+  font-weight: bold;
+  color: #396cf0;
+  margin-top: 25px;
+}
+
+#constantly .imgbox {
+  position: absolute;
+  bottom: 0;
+}
+
+#constantly .imgbox img {
+  max-width: 210px;
+}
+
+@media (max-width: 1200px) {
+  #constantly .imgbox {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
