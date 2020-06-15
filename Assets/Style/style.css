@@ -1326,8 +1326,20 @@ ul {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
+#footer {
+  padding: 100px 0px 50px 0px;
+}
+
 #footer a {
-  color: #396cf0;
+  color: #666666;
+  text-decoration: none;
+}
+
+#footer h3 {
+  font-size: 20px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  margin-top: 0px;
 }
 
 #footer .footerlogo {
@@ -1338,7 +1350,6 @@ ul {
 #footer .footerlogo a {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  text-decoration: none;
 }
 
 #footer .footerlogo p {
@@ -1350,5 +1361,88 @@ ul {
   list-style-type: none;
   padding: 0;
   margin: 20px 0 0;
+}
+
+#footer .socials-links li {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+
+#footer .socials-links li i {
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 15px;
+  display: inline-block;
+  background: #396cf0;
+  color: #ffffff;
+  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+          clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#footer .footer-widget ul li {
+  margin-bottom: 9px;
+}
+
+#footer .footer-widget ul {
+  line-height: 28px;
+}
+
+#footer .footer-widget a {
+  font-size: 15px;
+}
+
+#footer .separate-line {
+  border: 0.5px solid #eeeeee;
+  margin: 50px 0;
+}
+
+#footer .foot-contact-info {
+  position: relative;
+  padding-left: 50px;
+  margin-top: 15px;
+}
+
+#footer .foot-contact-info i {
+  background-color: #396cf0;
+  color: #ffffff;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+          clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  line-height: 40px;
+  font-size: 18px;
+  text-align: center;
+  left: 0;
+  top: 5px;
+}
+
+@media (max-width: 1000px) {
+  #footer .footer-widget h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  #footer .footer-widget a, #footer p {
+    font-size: 14px;
+  }
+}
+
+#footer .bottom-footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+#footer .bottom-footer ul li {
+  display: inline-block;
+  margin-left: 10px;
 }
 /*# sourceMappingURL=style.css.map */

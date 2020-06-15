@@ -1,13 +1,20 @@
 #footer {
+  padding: 100px 0px 50px 0px;
   a {
-    color: $mc;
+    color: #666666;
+    text-decoration: none;
+  }
+  h3 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    margin-top: 0px;
   }
   .footerlogo {
     margin-bottom: 20px;
     display: inline-block;
     a {
       transition: all 0.5s;
-      text-decoration: none;
     }
     p {
       color: #666666;
@@ -15,9 +22,98 @@
     }
   }
 
-  .socials-links{
+  .socials-links {
     list-style-type: none;
     padding: 0;
     margin: 20px 0 0;
+
+    li {
+      display: inline-block;
+      margin-right: 5px;
+      margin-bottom: 0;
+      i {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        text-align: center;
+        font-size: 15px;
+        display: inline-block;
+        background: #396cf0;
+        color: #ffffff;
+        clip-path: polygon(
+          30% 0%,
+          70% 0%,
+          100% 30%,
+          100% 70%,
+          70% 100%,
+          30% 100%,
+          0% 70%,
+          0% 30%
+        );
+        transition: 0.5s;
+      }
+    }
   }
+  .footer-widget ul li {
+    margin-bottom: 9px;
+  }
+  .footer-widget ul {
+    line-height: 28px;
+  }
+  .footer-widget a {
+    font-size: 15px;
+  }
+  .separate-line {
+    border: 0.5px solid #eeeeee;
+    margin: 50px 0;
+  }
+  .foot-contact-info {
+    position: relative;
+    padding-left: 50px;
+    margin-top: 15px;
+    i {
+      background-color: $mc;
+      color: #ffffff;
+      position: absolute;
+      height: 40px;
+      width: 40px;
+      clip-path: polygon(
+        30% 0%,
+        70% 0%,
+        100% 30%,
+        100% 70%,
+        70% 100%,
+        30% 100%,
+        0% 70%,
+        0% 30%
+      );
+      line-height: 40px;
+      font-size: 18px;
+      text-align: center;
+      left: 0;
+      top: 5px;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    .footer-widget h3 {
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+    .footer-widget a,p {
+        font-size: 14px;
+    }
+  }
+  .bottom-footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    font-size: 15px;
+    line-height: 28px;
+}
+.bottom-footer ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
 }
