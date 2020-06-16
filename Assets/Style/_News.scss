@@ -13,6 +13,18 @@
     img {
       clip-path: polygon(50% 0%, 100% 0, 100% 88%, 50% 100%, 0 88%, 0 0);
     }
+    &:before {
+      content: "";
+      position: absolute;
+      background-color: #396cf0;
+      height: 100%;
+      width: 99.5%;
+      z-index: -1;
+      left: 0;
+      top: 3px;
+      clip-path: polygon(50% 0%, 100% 0, 100% 88%, 50% 100%, 0 88%, 0 0);
+      transition: 0.4s;
+    }
   }
   .txtbox {
     padding: 30px 20px;
