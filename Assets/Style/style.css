@@ -1706,78 +1706,140 @@ ul {
   border-radius: 4px;
 }
 
-#DepartmentMenu {
+#DepartmentMenu,
+#SingleDoctor {
   padding: 100px 0px 100px 0px;
 }
 
-#DepartmentMenu .department-details .department-desc {
+#DepartmentMenu a,
+#SingleDoctor a {
+  color: #396cf0;
+}
+
+#DepartmentMenu .department-details .department-desc,
+#SingleDoctor .department-details .department-desc {
   margin-top: 30px;
 }
 
-#DepartmentMenu .department-details .department-desc h3 {
+#DepartmentMenu .department-details .department-desc h3,
+#SingleDoctor .department-details .department-desc h3 {
   font-weight: bold;
   font-size: 20px;
   margin-bottom: 15px;
 }
 
-#DepartmentMenu .department-details .department-desc p {
+#DepartmentMenu .department-details .department-desc p,
+#SingleDoctor .department-details .department-desc p {
   color: #666666;
   margin-bottom: 10px;
   font-size: 15px;
   line-height: 28px;
 }
 
-#DepartmentMenu .department-details .share-department {
+#DepartmentMenu .department-details .share-department,
+#SingleDoctor .department-details .share-department {
   margin-top: 25px;
 }
 
-#DepartmentMenu .department-details .share-department h4 {
+#DepartmentMenu .department-details .share-department h4,
+#SingleDoctor .department-details .share-department h4 {
   font-weight: bold;
   font-size: 18px;
   margin-bottom: 13px;
 }
 
-#DepartmentMenu .department-details .share-department ul {
+#DepartmentMenu .department-details .share-department ul,
+#SingleDoctor .department-details .share-department ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
 
-#DepartmentMenu .department-details .share-department ul li {
+#DepartmentMenu .department-details .share-department ul li,
+#SingleDoctor .department-details .share-department ul li {
   display: inline-block;
 }
 
-#DepartmentMenu .department-details .share-department ul li a {
+#DepartmentMenu .department-details .share-department ul li a,
+#SingleDoctor .department-details .share-department ul li a {
   color: #396cf0;
   display: inline-block;
   margin-right: 15px;
 }
 
-#DepartmentMenu .department-info {
+#DepartmentMenu .department-info,
+#SingleDoctor .department-info {
   margin-bottom: 30px;
 }
 
-#DepartmentMenu .department-info h4 {
+#DepartmentMenu .department-info h4,
+#SingleDoctor .department-info h4 {
   font-weight: bold;
   margin: 0px;
   font-size: 18px;
   margin-bottom: 13px;
 }
 
-#DepartmentMenu .department-info h4 ul {
+#DepartmentMenu .department-info h4 ul,
+#SingleDoctor .department-info h4 ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
 
-#DepartmentMenu .department-info h4 ul li {
+#DepartmentMenu .department-info h4 ul li,
+#SingleDoctor .department-info h4 ul li {
   overflow: hidden;
   color: #666666;
   margin-top: 5px;
 }
 
-#DepartmentMenu .department-info h4 ul li span {
+#DepartmentMenu .department-info h4 ul li span,
+#SingleDoctor .department-info h4 ul li span {
   float: right;
+}
+
+#SingleDoctor .doctors-sidebar .doctors-info {
+  margin-bottom: 20px;
+}
+
+#SingleDoctor .doctors-sidebar .doctors-info h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 13px;
+}
+
+#SingleDoctor .doctors-sidebar .doctors-info ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+#SingleDoctor .doctors-sidebar .doctors-info ul li {
+  overflow: hidden;
+  color: #666666;
+  margin-top: 5px;
+}
+
+#SingleDoctor .doctors-sidebar .doctors-info ul li span {
+  float: right;
+}
+
+#SingleDoctor .doctors-sidebar .doctors-social ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+#SingleDoctor .doctors-sidebar .doctors-social ul li {
+  display: inline-block;
+}
+
+#SingleDoctor .doctors-sidebar .doctors-social ul li a {
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 18px;
+  color: #396cf0;
 }
 
 #services {
@@ -1834,6 +1896,7 @@ ul {
 }
 
 #doctorMenu {
+  padding: 100px 0px;
   position: relative;
 }
 
