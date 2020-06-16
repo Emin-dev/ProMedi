@@ -1,46 +1,47 @@
-*{
-user-select:none;
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
-}
-html{
-scroll-behavior:smooth;
-}
-
-a:hover{
-text-decoration:none;
+* {
+  user-select: none;
+  font-family: "Lato", sans-serif;
 }
 
-ul{
-list-style:none;
-margin:0px;
-padding:0px;
-}
-$mc:#396cf0;
-
-
-
-
-@import"menuHeader";
-@import"header";
-@import"Doctors";
-@import"aboutus";
-@import"center";
-@import"Departments"; // .xet 
-@import"prevideo";
-@import"video";
-@import"numbers";
-@import"Expert";
-@import"Appointment";
-@import"Feedback";
-@import"constantly";
-@import"News";
-@import"Newsletter";
-@import"footer";
-
-@import"header2";
-@import"welcome";
-@import"DepartmentMenu";
-.yes{
-    color: $mc !important;
+html {
+  scroll-behavior: smooth;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+$mc: #396cf0;
+
+@import "menuHeader";
+@import "header";
+@import "Doctors";
+@import "aboutus";
+@import "center";
+@import "Departments"; // .xet
+@import "prevideo";
+@import "video";
+@import "numbers";
+@import "Expert";
+@import "Appointment";
+@import "Feedback";
+@import "constantly";
+@import "News";
+@import "Newsletter";
+@import "footer";
+
+@import "header2";
+@import "welcome";
+@import "DepartmentMenu";
+@import "services";
+@import"doctorMenu";
+.yes {
+  color: $mc !important;
+}

@@ -1,0 +1,44 @@
+#services {
+  background-attachment: fixed;
+    background-image: url(../imgs/bg.png);
+    padding: 100px 0px;
+  .single-services {
+    margin-bottom: 30px;
+    text-align: center;
+    background: #ffffff;
+    padding: 30px;
+    transition: 0.4s;
+    .icon {
+      display: inline-block;
+      width: 70px;
+      height: 70px;
+      line-height: 65px;
+      border: 2px solid $mc;
+      border-radius: 50%;
+      font-size: 30px;
+      position: relative;
+      color: $mc;
+      z-index: 1;
+      transition: 0.4s;
+    }
+    h3 {
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 25px;
+      margin-bottom: 15px;
+    }
+    p {
+      color: #666666;
+      font-size: 15px;
+      line-height: 28px;
+    }
+    &:hover {
+      transform: translateY(-10px);
+
+    }
+    &:hover .icon{
+      background: $mc;
+      color: white;
+    }
+  }
+}

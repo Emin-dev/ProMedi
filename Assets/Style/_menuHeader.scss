@@ -35,6 +35,9 @@
       }
     }
     .dropdown-menu {
+      a{
+        font-weight: normal;
+      }
       z-index: 11;
       height: 0px;
       transition: all 0.5s ease-in-out;
@@ -45,7 +48,7 @@
       overflow: hidden;
 
       .dropdown-item {
-        font-size: 15px;
+        font-size: 13px;
         line-height: 28px;
         word-wrap: break-word;
       }
