@@ -56,6 +56,7 @@
     .secont {
       left: 267px;
     }
+    
     li:hover .dropdown-menu {
       height: 300px;
       display: block;
@@ -63,6 +64,7 @@
     li:hover .secont {
       height: 160px;
     }
+    
   }
   #upmenu {
     padding: 5px;
@@ -138,4 +140,14 @@
   }
 }
 
+
+
+
+}
+
+
+@media (max-width:1300px ){
+  #menuHeader #menu .secont {
+    left: 205px !important;
+} 
 }

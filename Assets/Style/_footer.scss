@@ -56,6 +56,13 @@
   }
   .footer-widget ul li {
     margin-bottom: 9px;
+    a{
+      transition: .5s;
+    }
+    a:hover {
+      color: $mc;
+      padding-left: 4px;
+  }
   }
   .footer-widget ul {
     line-height: 28px;

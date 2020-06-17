@@ -23,9 +23,23 @@
   .box {
     border: 1px solid #eeeeee;
     transition: all 0.5s;
-    img {
+    .imgbox {
       position: relative;
-      clip-path: polygon(50% 0%, 100% 0, 100% 88%, 50% 100%, 0 88%, 0 0);
+      img {
+        clip-path: polygon(50% 0%, 100% 0, 100% 88%, 50% 100%, 0 88%, 0 0);
+      }
+      &:before {
+        content: "";
+        position: absolute;
+        background-color: #396cf0;
+        height: 100%;
+        width: 99.5%;
+        z-index: 0;
+        left: 0;
+        top: 3px;
+        clip-path: polygon(50% 0%, 100% 0, 100% 88%, 50% 100%, 0 88%, 0 0);
+        transition: 0.4s;
+      }
     }
     &:hover h1 {
       color: #396cf0;
@@ -38,30 +52,7 @@
       border-color: #ffffff;
       margin-bottom: 10px;
     }
-    &:before {
-      content: "";
-      position: absolute;
-      background-color: #396cf0;
-      height: 54%;
-      width: 89.5%;
-      z-index: 0;
-      left: 17px;
-      top: 3px;
-      transition: 0.5s;
-      clip-path: polygon(50% 0%, 100% 0, 100% 88%, 50% 100%, 0 88%, 0 0);
-    }
-    &:hover:before {
-      content: "";
-      position: absolute;
-      background-color: #396cf0;
-      height: 51%;
-      width: 89.5%;
-      z-index: 0;
-      left: 17px;
-      top: 3px;
-
-      clip-path: polygon(50% 0%, 100% 0, 100% 88%, 50% 100%, 0 88%, 0 0);
-    }
+    
   }
 
 

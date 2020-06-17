@@ -67,54 +67,16 @@
       font-size: 70px;
       z-index: 4;
 
-      animation: h1 2s; //infinite ease-in-out;
+      
     }
   }
-
-  @keyframes h1 {
+  .owl-item.active h1 {
+    animation: 1s 0.3s fadeInUp both;
+  }
+@keyframes fadeInUp {
     0% {
       top: 80%;
       opacity: 0%;
-    }
-    50% {
-      top: 50%;
-      opacity: 100%;
-    }
-    55% {
-      top: 50%;
-      opacity: 100%;
-    }
-    60% {
-      top: 50%;
-      opacity: 100%;
-    }
-    65% {
-      top: 50%;
-      opacity: 100%;
-    }
-    70% {
-      top: 50%;
-      opacity: 100%;
-    }
-    75% {
-      top: 50%;
-      opacity: 100%;
-    }
-    80% {
-      top: 50%;
-      opacity: 100%;
-    }
-    85% {
-      top: 50%;
-      opacity: 100%;
-    }
-    90% {
-      top: 50%;
-      opacity: 100%;
-    }
-    95% {
-      top: 50%;
-      opacity: 100%;
     }
     100% {
       top: 50%;

@@ -36,7 +36,6 @@
         background: #ffffff;
         border-radius: 50%;
       }
-     
 
       a {
         color: white;
@@ -52,5 +51,37 @@
     height: 100%;
     background-color: #000000;
     opacity: 0.6;
+  }
+  @media (max-width: 999px) {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    h2{
+      font-size: 25px;
+    }
+    ul{
+      text-align: center;
+      li{
+        font-size: 15px;
+        
+      }
+      li:first-child {&:before {
+          content: "";
+          position: absolute;
+          left: 50px;
+          top: 14px;
+          width: 5px;
+          height: 5px;
+          background: #ffffff;
+          border-radius: 50%;
+        }
+      }
+    }
+    .container-fluid{
+      .row{
+        .col-md-6{
+          text-align: center;
+        }
+      }
+    }
   }
 }
