@@ -166,6 +166,33 @@ $(document).ready(function () {
 
 
 
+
+  $('body').append('<div id="toTop"><i class="fas fa-caret-up"></i></div>');
+  $(window).on('scroll', function () {
+      if ($(this).scrollTop() != 0) {
+          $('#toTop').fadeIn();
+      } else {
+          $('#toTop').fadeOut();
+      }
+  }); 
+  $('#toTop').on('click', function(){
+      $("html, body").animate({ scrollTop: 0 }, 50);
+      return false;
+  });
+
+
+
+
+  $(window).on('scroll', function() {
+    if ($(this).scrollTop() >150){  
+        $('#menu').addClass("sticky");
+    }
+    else{
+        $('#menu').removeClass("sticky");
+    }
+});
+
+
 });
 
 
