@@ -45,7 +45,7 @@
                         <li>
                             <a href="DepartmentMenu.html">Departments <i class="fas fa-sort-down "></i></a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="DepartmentMenu.html">Cardiology</a>
+                                <a class="dropdown-item " href="DepartmentMenu.html">Cardiology</a>
                                 <a class="dropdown-item" href="DepartmentMenu.html">Gynecology</a>
                                 <a class="dropdown-item" href="DepartmentMenu.html">Neurology</a>
                                 <a class="dropdown-item" href="DepartmentMenu.html">Orthopedics</a>
@@ -57,12 +57,12 @@
 
 
                         </li>
-                        <li><a class="yes" href="#">Pages <i class="fas fa-sort-down"></i></a>
+                        <li><a  class="yes" href="#">Pages <i class="fas fa-sort-down"></i></a>
                             <div class="dropdown-menu secont">
-                                <a class="dropdown-item yes" href="servicesMenu.html">Services</a>
+                                <a class="dropdown-item" href="servicesMenu.html">Services</a>
                                 <a class="dropdown-item" href="doctorMenu.html">Our Doctor</a>
                                 <a class="dropdown-item" href="SingleDoctor.html">Single Doctor</a>
-                                <a class="dropdown-item" href="AppointmentMenu.html">Book Appoinment</a>
+                                <a class="dropdown-item yes" href="AppointmentMenu.html">Book Appoinment</a>
                             </div>
                         </li>
                         <li><a href="#">Blog</a></li>
@@ -85,13 +85,13 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 col-lg-7">
-                    <h2>Services</h2>
+                    <h2>Appointment</h2>
                 </div>
 
                 <div class="col-md-6 col-lg-5">
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li>Services</li>
+                        <li>Appointment</li>
                     </ul>
                 </div>
             </div>
@@ -99,169 +99,88 @@
 
     </section>
 
-    <section id="services">
-        <div class="container">
+
+
+    <section id="Appointment">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-services">
-                        <div class="icon">
-                            <i class="fas fa-user-md"></i>
-                        </div>
-                        <h3>Plastic Surgery</h3>
-                        <p>Our talented, board-certified and fellowship-trained plastic surgeons have more than 10 years
-                            of experience.</p>
+                <div class="col-md-12 col-lg-5 p-0">
+                    <div class="callnum">
+                        <h2><i class="fas fa-phone-alt"></i> 1-604-555-5555</h2>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-services">
-                        <div class="icon">
-                            <i class="fas fa-user-nurse"></i>
-                        </div>
-                        <h3>Breast Screening</h3>
-                        <p>Our talented, board-certified and fellowship-trained plastic surgeons have more than 10 years
-                            of experience.</p>
+                <div class="col-md-12 col-lg-7 p-0">
+                    <div class="form">
+                        <h2 class="title">Make an Appointment</h2>
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6 ">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="id_name" placeholder="Name">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-lg-6 ">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="id_email" placeholder="Email">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-lg-6 ">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="id_phone_number"
+                                            placeholder="Phone Number">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-lg-6 ">
+                                    <div class="form-group">
+                                        <select class="form-control">
+                                            <option>Department</option>
+                                            <option>Cardiology</option>
+                                            <option>Neurology</option>
+                                            <option>Orthopedics</option>
+                                            <option>Radiology</option>
+                                            <option>Surgery</option>
+                                            <option>Urology</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-lg-6 ">
+                                    <div class="form-group">
+                                        <select class="form-control">
+                                            <option>Doctor</option>
+                                            <option>Dr. Anym Jackson</option>
+                                            <option>Dr. Mark Jacobson</option>
+                                            <option>Dr. Alex Davidson</option>
+                                            <option>Dr. Jaka Alex</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-lg-6 ">
+                                    <div class="form-group">
+                                        <input class="form-control hasDatepicker" id="datepicker"
+                                            placeholder="Booking Date">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea class="form-control" id="message" rows="4" placeholder="Message"></textarea>
+                            </div>
+
+                            <button type="submit">Book Now</button>
+                        </form>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-services">
-                        <div class="icon">
-                            <i class="fad fa-soup"></i>
-                        </div>
-                        <h3>Nutrition and Dietetics</h3>
-                        <p>Our talented, board-certified and fellowship-trained plastic surgeons have more than 10 years
-                            of experience.</p>
-                    </div>
-                </div>
 
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-services">
-                        <div class="icon">
-                            <i class="fas fa-bed"></i>
-                        </div>
-                        <h3>Occupational Therapy</h3>
-                        <p>Our talented, board-certified and fellowship-trained plastic surgeons have more than 10 years
-                            of experience.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-services">
-                        <div class="icon">
-                            <i class="fas fa-user-md"></i>
-                        </div>
-                        <h3>Plastic Surgery</h3>
-                        <p>Our talented, board-certified and fellowship-trained plastic surgeons have more than 10 years
-                            of experience.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-services">
-                        <div class="icon">
-                            <i class="fas fa-user-nurse"></i>
-                        </div>
-                        <h3>Breast Screening</h3>
-                        <p>Our talented, board-certified and fellowship-trained plastic surgeons have more than 10 years
-                            of experience.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-services">
-                        <div class="icon">
-                            <i class="fas fa-user-md"></i>
-                        </div>
-                        <h3>Plastic Surgery</h3>
-                        <p>Our talented, board-certified and fellowship-trained plastic surgeons have more than 10 years
-                            of experience.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-services">
-                        <div class="icon">
-                            <i class="fas fa-user-nurse"></i>
-                        </div>
-                        <h3>Breast Screening</h3>
-                        <p>Our talented, board-certified and fellowship-trained plastic surgeons have more than 10 years
-                            of experience.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-services">
-                        <div class="icon">
-                            <i class="fad fa-soup"></i>
-                        </div>
-                        <h3>Nutrition and Dietetics</h3>
-                        <p>Our talented, board-certified and fellowship-trained plastic surgeons have more than 10 years
-                            of experience.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-services">
-                        <div class="icon">
-                            <i class="fas fa-bed"></i>
-                        </div>
-                        <h3>Occupational Therapy</h3>
-                        <p>Our talented, board-certified and fellowship-trained plastic surgeons have more than 10 years
-                            of experience.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-services">
-                        <div class="icon">
-                            <i class="fas fa-user-md"></i>
-                        </div>
-                        <h3>Plastic Surgery</h3>
-                        <p>Our talented, board-certified and fellowship-trained plastic surgeons have more than 10 years
-                            of experience.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-services">
-                        <div class="icon">
-                            <i class="fas fa-user-nurse"></i>
-                        </div>
-                        <h3>Breast Screening</h3>
-                        <p>Our talented, board-certified and fellowship-trained plastic surgeons have more than 10 years
-                            of experience.</p>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
-
-
-
-
-
-
-
-    <section id="center">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-lg-9 foricon">
-
-                    <i class="fas fa-medkit"></i>
-                    <h3>Health Care Center</h3>
-                    <p>if you have any Emerangcy by health problem contact this <span>No. 035 687 9514</span> or contact
-                        form</p>
-
-                </div>
-
-                <div class="col-md-12 col-lg-3 d-flex align-items-center">
-                    <button>Contact Us</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
 
 
     <section id="footer">
