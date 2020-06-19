@@ -256,9 +256,22 @@ $(document).ready(function () {
     }
   });
 
+
+
+
+ 
+
+
+
   $(function () { $("#footer").load("footer.html") });
 
 
 });
 
+
+$(window).on('load', function(){
+
+  setTimeout(function(){$(".preloader").addClass("d-none");}, 1000);
+ 
+});
 
