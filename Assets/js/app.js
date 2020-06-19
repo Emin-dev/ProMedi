@@ -196,6 +196,15 @@ $(document).ready(function () {
     }
   });
 
+  $(window).on('scroll', function () {
+    if ($(this).scrollTop() > 150) {
+      $('#menu2').addClass("sticky2");
+    }
+    else {
+      $('#menu2').removeClass("sticky2");
+    }
+  });
+
 
 
   $("#iconVideo").click(function(){

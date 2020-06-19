@@ -168,8 +168,8 @@ ul {
   width: 30px;
   text-align: center;
   line-height: 32px;
-  -webkit-transition: 0.5;
-  transition: 0.5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 #menuHeader #upmenu ul li i:hover {
@@ -2471,6 +2471,20 @@ ul {
   top: 0;
   left: 0;
   padding: 20px 10% !important;
+  width: 100%;
+  z-index: 99;
+  -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
+  -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+          animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  max-width: none !important;
+}
+
+.sticky2 {
+  margin: 0px !important;
+  position: fixed;
+  top: 70px;
+  left: 0;
   width: 100%;
   z-index: 99;
   -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);

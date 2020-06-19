@@ -88,7 +88,7 @@
           width: 30px;
           text-align: center;
           line-height: 32px;
-          transition: 0.5;
+          transition: 0.5s;
           &:hover {
             background-color: $mc;
             color: #ffffff;
@@ -142,6 +142,7 @@
   }
 
   .navbar-container {
+   
     transition: 1s;
     overflow: hidden;
     height: 331px;
@@ -158,6 +159,7 @@
     }
 
     .navbar-light {
+      
       background-color: #ffffff;
       padding: 20px 15px;
     }

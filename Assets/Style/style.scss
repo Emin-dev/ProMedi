@@ -93,7 +93,17 @@ $mc: #396cf0;
   max-width: none !important;
 }
 
-
+.sticky2{
+  margin: 0px !important;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  max-width: none !important;
+}
 
 @keyframes fadeInDown {
   0% {
