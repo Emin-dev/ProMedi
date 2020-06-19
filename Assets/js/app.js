@@ -102,9 +102,9 @@ $(document).ready(function () {
     , 2000)
 
 
-  // $(function () {
-  //   $("#datepicker").datepicker();
-  // });
+  $(function () {
+    $("#datepicker").datepicker();
+  });
 
   // $("#datepicker").click(function (e) {
   //   e.preventDefault();
