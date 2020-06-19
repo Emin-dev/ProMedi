@@ -2465,6 +2465,54 @@ ul {
   color: #396cf0;
 }
 
+#Contact {
+  padding: 100px 0px;
+}
+
+#Contact .title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+#Contact ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+#Contact ul li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 8px;
+  color: #666666;
+}
+
+#Contact p {
+  text-transform: uppercase;
+  color: #396cf0;
+  margin-bottom: 10px;
+}
+
+#Contact #contactForm {
+  margin-top: 25px;
+}
+
+#Contact #contactForm .form-group {
+  margin-bottom: 20px;
+}
+
+#Contact #contactForm .form-group .form-control {
+  border: 1px solid #eeeeee;
+  height: 45px;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+#Contact .contact-info {
+  margin-bottom: 30px;
+}
+
 .yes {
   color: #396cf0 !important;
 }

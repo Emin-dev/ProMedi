@@ -1,4 +1,12 @@
 $(document).ready(function () {
+
+
+  $(function () {
+    $("#datepicker").datepicker();
+  });
+
+
+
   $("#owl-carousel").owlCarousel(
     {
       nav: true,
@@ -102,9 +110,7 @@ $(document).ready(function () {
     , 2000)
 
 
-  $(function () {
-    $("#datepicker").datepicker();
-  });
+ 
 
   // $("#datepicker").click(function (e) {
   //   e.preventDefault();
