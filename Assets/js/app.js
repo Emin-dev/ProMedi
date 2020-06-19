@@ -2,7 +2,9 @@ $(document).ready(function () {
 
 
   $(function () {
+    console.log("geldi");
     $("#datepicker").datepicker();
+    console.log("geldi");
   });
 
 

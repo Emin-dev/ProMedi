@@ -2469,6 +2469,10 @@ ul {
   padding: 100px 0px;
 }
 
+#Contact a {
+  color: #396cf0;
+}
+
 #Contact .title {
   font-size: 20px;
   margin-bottom: 15px;
@@ -2486,6 +2490,14 @@ ul {
   padding-left: 22px;
   margin-bottom: 8px;
   color: #666666;
+}
+
+#Contact ul li i {
+  color: #396cf0;
+}
+
+#Contact ul li span {
+  float: right;
 }
 
 #Contact p {
@@ -2511,6 +2523,25 @@ ul {
 
 #Contact .contact-info {
   margin-bottom: 30px;
+}
+
+#Contact .default-btn {
+  background-color: #396cf0;
+  color: #ffffff;
+  display: inline-block;
+  border: 1px solid #396cf0;
+  cursor: pointer;
+  padding: 14px 30px;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+#Contact .default-btn:hover {
+  background-color: #333333;
+  border: 1px solid #333333;
+  color: #ffffff;
 }
 
 .yes {
