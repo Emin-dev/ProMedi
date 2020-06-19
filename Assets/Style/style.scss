@@ -10,6 +10,13 @@ html {
   
 }
 
+
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -67,6 +74,7 @@ $mc: #396cf0;
 @import "services";
 @import "doctorMenu";
 @import"AppointmentMenu";
+@import"Blog";
 .yes {
   color: $mc !important;
 }
@@ -84,6 +92,8 @@ $mc: #396cf0;
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   max-width: none !important;
 }
+
+
 
 @keyframes fadeInDown {
   0% {

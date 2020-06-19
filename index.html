@@ -66,12 +66,13 @@
                                 <a class="dropdown-item" href="AppointmentMenu.html">Book Appoinment</a>
                             </div>
                         </li>
-                        <li><a href="#">Blog</a></li>
+                        <li><a href="Blog.html">Blog</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 men">
-                    <button> Make an Appointment <i class="far fa-chevron-right"></i></button>
+                    <button link="AppointmentMenu.html"> Make an Appointment <i
+                            class="far fa-chevron-right"></i></button>
                 </div>
                 <div class="col-6  burgerMenu">
                     <div class="burger">
@@ -80,6 +81,74 @@
                 </div>
             </div>
         </div>
+
+        <div class="container">
+            <div class="navbar-container header-sticky off">
+                <nav class="navbar navbar-expand-lg navbar-light">
+
+
+                    <div class="navbar-collapse collapse show" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item">
+                                <a class="nav-link yes" href="index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a id="dItem" class="nav-link dropdown-toggle" href="#" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Departments
+                                </a>
+                                <div class="dropdown-menu off" id="dMenu">
+                                    <a class="dropdown-item" href="DepartmentMenu.html">Cardiology</a>
+                                    <a class="dropdown-item" href="DepartmentMenu.html">Gynecology</a>
+                                    <a class="dropdown-item" href="DepartmentMenu.html">Neurology</a>
+                                    <a class="dropdown-item" href="DepartmentMenu.html">Orthopedics</a>
+                                    <a class="dropdown-item" href="DepartmentMenu.html">Gastrology</a>
+                                    <a class="dropdown-item" href="DepartmentMenu.html">Pulmonology</a>
+                                    <a class="dropdown-item" href="DepartmentMenu.html">Laboratory</a>
+                                    <a class="dropdown-item" href="DepartmentMenu.html">Urology</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a id="pItem" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <div class="dropdown-menu off" id="pMenu">
+                                    <a class="dropdown-item" href="servicesMenu.html">Services</a>
+                                    <a class="dropdown-item" href="doctorMenu.html">Our Doctor</a>
+                                    <a class="dropdown-item" href="SingleDoctor.html">Single Doctor</a>
+                                    <a class="dropdown-item" href="AppointmentMenu.html">Book Appoinment</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="Blog.html">Blog</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+
+                        <div class="appointment-inline my-lg-0">
+                            <a href="AppointmentMenu.html" class="appointment-btn">
+                                Make an Appointment
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
     </section>
 
     <section id="header">
@@ -111,7 +180,7 @@
     <section id="Doctors">
         <div class="container">
             <div class="row whitebox">
-                <div class="col-lg-4 col-sm-10 ">
+                <div class="col-lg-4 col-sm-12 ">
                     <div class="box">
                         <div class="imgbox"><img src="Assets/imgs/1 (2).jpg" alt=""></div>
                         <h1>Emergency Care</h1>
@@ -119,7 +188,7 @@
                             labore</h5>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-10 ">
+                <div class="col-lg-4 col-sm-12 ">
                     <div class="box">
                         <div class="imgbox"><img src="Assets/imgs/2 (2).jpg" alt=""></div>
                         <h1>Emergency Care</h1>
@@ -127,7 +196,7 @@
                             labore</h5>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-10 ">
+                <div class="col-lg-4 col-sm-12 ">
                     <div class="box">
                         <div class="imgbox"><img src="Assets/imgs/3 (2).jpg" alt=""></div>
                         <h1>Emergency Care</h1>
@@ -273,7 +342,7 @@
 
     <section id="video">
         <div id="iframevideo" class="d-none"></div>
-        <iframe class="d-none" width="560" height="315" src="https://www.youtube.com/embed/LFBxRxwY4Qw" frameborder="0"
+        <iframe class="d-none" width="900" height="506" src="https://www.youtube.com/embed/LFBxRxwY4Qw" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <div class="container">
             <div class="box">
@@ -281,7 +350,7 @@
                     <div class="wrapper">
                         <div class="btn">
                             <div class="anime"></div>
-                            <a class="icon">
+                            <a class="icon" id="iconVideo">
                                 <i class="fal fa-play"></i>
                             </a>
                         </div>
@@ -680,9 +749,9 @@
 
 
     <section id="footer">
-  
+
     </section>
-    
+
 
 
 

@@ -1,4 +1,25 @@
 #Appointment {
+
+
+
+  
+@media (max-width: 400px) {
+   .title {
+    font-size: 22px !important;
+}
+.callnum{
+  h2{
+    font-size:  22px !important;
+    i{
+      font-size:  22px !important;
+    }
+  }
+}
+}
+
+
+
+  
   .row {
     max-width: none;
   }

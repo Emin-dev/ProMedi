@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/icons/css/all.css">
+    <link rel="stylesheet" href="Assets/icons/js/all.min.js">
+    <link rel="stylesheet" href="plugins/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="plugins/OwlCarousel2-2.3.4/docs/assets/css/docs.theme.min.css">
+    <link rel="stylesheet" href="Assets/Style/style.css">
+
+    <title>ProMedi</title>
+</head>
+
+<body>
+
+    <section id="menuHeader">
+        <div class="container">
+            <div class="row" id="upmenu">
+                <div class=" col-md-9  d-flex flex-row">
+                    <h6><i class="fad fa-phone-alt"></i> Call us: +44 458 7895</h6>
+                    <h6><i class="fas fa-map-marker-alt"></i> 210 Quadra Street Victoria, Canada</h6>
+                </div>
+                <div class=" col-md-3 ">
+                    <ul class="justify-content-end">
+                        <li><i class="fab fa-facebook-f"></i></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                        <li><i class="fab fa-linkedin"></i></li>
+                        <li><i class="fab fa-google-plus-g"></i></li>
+                        <li><i class="fab fa-instagram"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row align-items-center" id="menu">
+                <div class="col-lg-3 col-6 ">
+                    <img id="logo" src="assets/imgs/logo.png" alt="">
+                </div>
+                <div class="col-lg-6 col-md-3 men">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li>
+                            <a href="DepartmentMenu.html">Departments <i class="fas fa-sort-down "></i></a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="DepartmentMenu.html">Cardiology</a>
+                                <a class="dropdown-item" href="DepartmentMenu.html">Gynecology</a>
+                                <a class="dropdown-item" href="DepartmentMenu.html">Neurology</a>
+                                <a class="dropdown-item" href="DepartmentMenu.html">Orthopedics</a>
+                                <a class="dropdown-item" href="DepartmentMenu.html">Gastrology</a>
+                                <a class="dropdown-item" href="DepartmentMenu.html">Pulmonology</a>
+                                <a class="dropdown-item" href="DepartmentMenu.html">Laboratory</a>
+                                <a class="dropdown-item" href="DepartmentMenu.html">Urology</a>
+                            </div>
+
+
+                        </li>
+                        <li><a href="#">Pages <i class="fas fa-sort-down"></i></a>
+                            <div class="dropdown-menu secont">
+                                <a class="dropdown-item" href="servicesMenu.html">Services</a>
+                                <a class="dropdown-item" href="doctorMenu.html">Our Doctor</a>
+                                <a class="dropdown-item" href="SingleDoctor.html">Single Doctor</a>
+                                <a class="dropdown-item" href="AppointmentMenu.html">Book Appoinment</a>
+                            </div>
+                        </li>
+                        <li><a class="yes" href="Blog.html">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 men">
+                    <button> Make an Appointment <i class="far fa-chevron-right"></i></button>
+                </div>
+                <div class="col-6 burgerMenu">
+                    <div class="burger">
+                        <i class="fal fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="navbar-container header-sticky off">
+                <nav class="navbar navbar-expand-lg navbar-light">
+
+
+                    <div class="navbar-collapse collapse show" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item">
+                                <a class="nav-link yes" href="index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a id="dItem" class="nav-link dropdown-toggle" href="#" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Departments
+                                </a>
+                                <div class="dropdown-menu off" id="dMenu">
+                                    <a class="dropdown-item" href="DepartmentMenu.html">Cardiology</a>
+                                    <a class="dropdown-item" href="DepartmentMenu.html">Gynecology</a>
+                                    <a class="dropdown-item" href="DepartmentMenu.html">Neurology</a>
+                                    <a class="dropdown-item" href="DepartmentMenu.html">Orthopedics</a>
+                                    <a class="dropdown-item" href="DepartmentMenu.html">Gastrology</a>
+                                    <a class="dropdown-item" href="DepartmentMenu.html">Pulmonology</a>
+                                    <a class="dropdown-item" href="DepartmentMenu.html">Laboratory</a>
+                                    <a class="dropdown-item" href="DepartmentMenu.html">Urology</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a id="pItem" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <div class="dropdown-menu off" id="pMenu">
+                                    <a class="dropdown-item" href="servicesMenu.html">Services</a>
+                                    <a class="dropdown-item" href="doctorMenu.html">Our Doctor</a>
+                                    <a class="dropdown-item" href="SingleDoctor.html">Single Doctor</a>
+                                    <a class="dropdown-item" href="AppointmentMenu.html">Book Appoinment</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="Blog.html">Blog</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+
+                        <div class="appointment-inline my-lg-0">
+                            <a href="AppointmentMenu.html" class="appointment-btn">
+                                Make an Appointment
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <section id="header2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-lg-7">
+                    <h2>Blog</h2>
+                </div>
+
+                <div class="col-md-6 col-lg-5">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-card actical-card">
+                                <div class="thumb-img">
+                                    <a href="#">
+                                        <img src="Assets/imgs/1 (3).jpg" alt="News Image">
+                                    </a>
+                                </div>
+
+                                <div class="caption-text">
+                                    <h3><a href="#">Baby Talk: Is Surrogacy An Option?</a></h3>
+
+                                    <ul class="meta-tag">
+                                        <li class="author">
+                                            <img src="Assets/imgs/1 (1).jpg" alt="">
+                                            <a href="#">Dr. Jacson</a>
+                                        </li>
+                                        <li>5 Jan, 2019</li>
+                                        <li><i class="icofont-speech-comments"></i> 30</li>
+                                    </ul>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore</p>
+
+                                    <a href="#" class="read-more">Read More <i class="icofont-swoosh-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-card actical-card">
+                                <div class="thumb-img">
+                                    <a href="#">
+                                        <img src="assets/imgs/2 (4).jpg" alt="News Image">
+                                    </a>
+                                </div>
+
+                                <div class="caption-text">
+                                    <h3><a href="#">4 Simple Tips To Dental Patient Marketing</a></h3>
+
+                                    <ul class="meta-tag">
+                                        <li class="author">
+                                            <img src="assets/imgs/1 (1).jpg" alt="">
+                                            <a href="#">Dr. Inline</a>
+                                        </li>
+                                        <li>8 Jan, 2019</li>
+                                        <li><i class="icofont-speech-comments"></i> 30</li>
+                                    </ul>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore</p>
+
+                                    <a href="#" class="read-more">Read More <i class="icofont-swoosh-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-card actical-card">
+                                <div class="thumb-img">
+                                    <a href="#">
+                                        <img src="Assets/imgs/3 (3).jpg" alt="News Image">
+                                    </a>
+                                </div>
+
+                                <div class="caption-text">
+                                    <h3><a href="#">How to Donate Medical Supplies</a></h3>
+
+                                    <ul class="meta-tag">
+                                        <li class="author">
+                                            <img src="assets/imgs/1 (1).jpg" alt="">
+                                            <a href="#">Dr. Jach</a>
+                                        </li>
+                                        <li>9 Jan, 2019</li>
+                                        <li><i class="icofont-speech-comments"></i> 30</li>
+                                    </ul>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore</p>
+
+                                    <a href="#" class="read-more">Read More <i class="icofont-swoosh-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-card actical-card">
+                                <div class="thumb-img">
+                                    <a href="#">
+                                        <img src="assets/imgs/4 (1).jpg" alt="News Image">
+                                    </a>
+                                </div>
+
+                                <div class="caption-text">
+                                    <h3><a href="#">Simple First Aid Tips For An Injured Ankle</a></h3>
+
+                                    <ul class="meta-tag">
+                                        <li class="author">
+                                            <img src="assets/imgs/1 (1).jpg" alt="">
+                                            <a href="#">Dr. Jia</a>
+                                        </li>
+                                        <li>25 Jan, 2019</li>
+                                        <li><i class="icofont-speech-comments"></i> 30</li>
+                                    </ul>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore</p>
+
+                                    <a href="#" class="read-more">Read More <i class="icofont-swoosh-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-card actical-card">
+                                <div class="thumb-img">
+                                    <a href="#">
+                                        <img src="assets/imgs/5 (1).jpg" alt="News Image">
+                                    </a>
+                                </div>
+
+                                <div class="caption-text">
+                                    <h3><a href="#">Tips for Moms to Detect Medicare Scams</a></h3>
+
+                                    <ul class="meta-tag">
+                                        <li class="author">
+                                            <img src="assets/imgs/1 (1).jpg" alt="">
+                                            <a href="#">Dr. Smith</a>
+                                        </li>
+                                        <li>29 Jan, 2019</li>
+                                        <li><i class="icofont-speech-comments"></i> 30</li>
+                                    </ul>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore</p>
+
+                                    <a href="#" class="read-more">Read More <i class="icofont-swoosh-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-card actical-card">
+                                <div class="thumb-img">
+                                    <a href="#">
+                                        <img src="Assets/imgs/1 (3).jpg" alt="News Image">
+                                    </a>
+                                </div>
+
+                                <div class="caption-text">
+                                    <h3><a href="#">Baby Talk: Is Surrogacy An Option?</a></h3>
+
+                                    <ul class="meta-tag">
+                                        <li class="author">
+                                            <img src="Assets/imgs/1 (1).jpg" alt="">
+                                            <a href="#">Dr. Jacson</a>
+                                        </li>
+                                        <li>5 Jan, 2019</li>
+                                        <li><i class="icofont-speech-comments"></i> 30</li>
+                                    </ul>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore</p>
+
+                                    <a href="#" class="read-more">Read More <i class="icofont-swoosh-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-card actical-card">
+                                <div class="thumb-img">
+                                    <a href="#">
+                                        <img src="assets/imgs/2 (4).jpg" alt="News Image">
+                                    </a>
+                                </div>
+
+                                <div class="caption-text">
+                                    <h3><a href="#">4 Simple Tips To Dental Patient Marketing</a></h3>
+
+                                    <ul class="meta-tag">
+                                        <li class="author">
+                                            <img src="assets/imgs/1 (1).jpg" alt="">
+                                            <a href="#">Dr. Inline</a>
+                                        </li>
+                                        <li>8 Jan, 2019</li>
+                                        <li><i class="icofont-speech-comments"></i> 30</li>
+                                    </ul>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore</p>
+
+                                    <a href="#" class="read-more">Read More <i class="icofont-swoosh-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single-card actical-card">
+                                <div class="thumb-img">
+                                    <a href="#">
+                                        <img src="Assets/imgs/3 (3).jpg" alt="News Image">
+                                    </a>
+                                </div>
+
+                                <div class="caption-text">
+                                    <h3><a href="#">How to Donate Medical Supplies</a></h3>
+
+                                    <ul class="meta-tag">
+                                        <li class="author">
+                                            <img src="assets/imgs/1 (1).jpg" alt="">
+                                            <a href="#">Dr. Jach</a>
+                                        </li>
+                                        <li>9 Jan, 2019</li>
+                                        <li><i class="icofont-speech-comments"></i> 30</li>
+                                    </ul>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore</p>
+
+                                    <a href="#" class="read-more">Read More <i class="icofont-swoosh-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 col-md-12">
+                            <div class="pagination-area mb-5">
+                                <nav aria-label="Page navigation">
+                                    <ul class="pagination justify-content-center">
+                                        <li class="page-item">
+                                            <a class="page-link" href="#"><i class="fas fa-chevron-left"></i></a>
+                                        </li>
+                                        <li class="page-item active">
+                                            <a class="page-link" href="#">1</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">2</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">3</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">4</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#"><i class="fas fa-chevron-right"></i></a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12">
+                    <div class="side-bar">
+                        <div class="widget search-box">
+                            <form>
+                                <input type="text" class="form-control" id="search-box" name="search"
+                                    placeholder="Search for...">
+                                <button type="submit" class="default-btn"><i class="far fa-search"></i></button>
+                            </form>
+                        </div>
+
+                        <div class="widget latest-post">
+                            <h4 class="title">Latest Post</h4>
+
+                            <div class="single-post">
+                                <div class="img">
+                                    <a href="#"><img src="Assets/imgs/latest-post1.jpg" alt="latest-post"></a>
+                                </div>
+
+                                <div class="content">
+                                    <ul>
+                                        <li>Posted by <a href="#">Admin</a></li>
+                                    </ul>
+                                    <h4><a href="#">Consulting Fee Structures: 5 Models Ranked from Worst to Best</a>
+                                    </h4>
+                                </div>
+                            </div>
+
+                            <div class="single-post">
+                                <div class="img">
+                                    <a href="#"><img src="Assets/imgs/latest-post2.jpg" alt="latest-post"></a>
+                                </div>
+
+                                <div class="content">
+                                    <ul>
+                                        <li>Posted by <a href="#">Admin</a></li>
+                                    </ul>
+                                    <h4><a href="#">5 Secrets to a Successful Business Coaching Relationship</a></h4>
+                                </div>
+                            </div>
+
+                            <div class="single-post">
+                                <div class="img">
+                                    <a href="#"><img src="Assets/imgs/latest-post3.jpg" alt="latest-post"></a>
+                                </div>
+
+                                <div class="content">
+                                    <ul>
+                                        <li>Posted by <a href="#">Admin</a></li>
+                                    </ul>
+                                    <h4><a href="#">How to Put Your Value Proposition to Work</a></h4>
+                                </div>
+                            </div>
+
+                            <div class="single-post mb-0">
+                                <div class="img">
+                                    <a href="#"><img src="Assets/imgs/latest-post1.jpg" alt="latest-post"></a>
+                                </div>
+
+                                <div class="content">
+                                    <ul>
+                                        <li>Posted by <a href="#">Admin</a></li>
+                                    </ul>
+                                    <h4><a href="#">Consulting Sales for the Elite Consultant</a></h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="widget categories">
+                            <h3 class="title">Categories</h3>
+
+                            <ul>
+                                <li><a href="#"><i class="far fa-angle-double-right"></i> Business Consulting</a></li>
+                                <li><a href="#"><i class="far fa-angle-double-right"></i> Financial Advice</a></li>
+                                <li><a href="#"><i class="far fa-angle-double-right"></i> Market Research</a></li>
+                                <li><a href="#"><i class="far fa-angle-double-right"></i> Business Solutions</a></li>
+                                <li><a href="#"><i class="far fa-angle-double-right"></i> Professional Planning</a></li>
+                                <li><a href="#"><i class="far fa-angle-double-right"></i> Finanace Services</a></li>
+                                <li><a href="#"><i class="far fa-angle-double-right"></i> Business Planning</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="widget popular-tags">
+                            <h3 class="title">Popular Tags</h3>
+
+                            <ul>
+                                <li><a href="#">Business</a></li>
+                                <li><a href="#">Finanace</a></li>
+                                <li><a href="#">Solutions</a></li>
+                                <li><a href="#">Market Research</a></li>
+                                <li><a href="#">Planning</a></li>
+                                <li><a href="#">Advice</a></li>
+                                <li><a href="#">Financial</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Professional</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="widget quick-contact mb-0">
+                            <h4>Quick contact to help?</h4>
+                            <p>Excepteur sint occaecat non proident, sunt in culpa officia deserunt mollit anim id est
+                                laborum.</p>
+                            <a href="#">Contact Us <span ><i
+                                        class="far fa-angle-double-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-9 foricon">
+
+                    <i class="fas fa-medkit"></i>
+                    <h3>Health Care Center</h3>
+                    <p>if you have any Emerangcy by health problem contact this <span>No. 035 687 9514</span> or contact
+                        form</p>
+
+                </div>
+
+                <div class="col-md-12 col-lg-3 d-flex align-items-center">
+                    <button>Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="footer">
+
+    </section>
+
+    <script src="Assets/js/jquery2.js"></script>
+    <script type="text/javascript"
+        src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
+    <script src="plugins/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
